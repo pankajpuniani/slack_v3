@@ -37,7 +37,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Channel</label>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Change Details">70da4f433be0030057a4a2e334efc4c4</model>
         <model_id>70da4f433be0030057a4a2e334efc4c4</model_id>
