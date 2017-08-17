@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_hub_action_input" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>d2facf433be0030057a4a2e334efc498</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>dafa43833be0030057a4a2e334efc40d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>array</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>5efa43833be0030057a4a2e334efc40d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>array_denormalized</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>defa43833be0030057a4a2e334efc40d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>attributes</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>52fa43833be0030057a4a2e334efc40e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>audit</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>d2fa43833be0030057a4a2e334efc40e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>calculation</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>56fa43833be0030057a4a2e334efc40e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>choice</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>d6fa43833be0030057a4a2e334efc40e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>choice_field</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>5afa43833be0030057a4a2e334efc40e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>choice_table</element>
+            <list_id display_value="sys_hub_action_input" element="NULL" name="sys_hub_action_input" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5afacf433be0030057a4a2e334efc497</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:13:49</sys_created_on>
+            <sys_id>dafa43833be0030057a4a2e334efc40e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:13:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_hub_action_input</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-17 21:15:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>174b83833be0030057a4a2e334efc479</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_scope display_value="Slack">e39492473ba0030057a4a2e334efc4ba</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-17 21:15:14</sys_updated_on>
+            <sys_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

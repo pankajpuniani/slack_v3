@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Webhooks</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:25:32</sys_created_on>
+        <sys_id>e364e24b3ba0030057a4a2e334efc4e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Webhooks</sys_name>
+        <sys_package display_value="Slack" source="sn_slack_ah">e39492473ba0030057a4a2e334efc4ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slack">e39492473ba0030057a4a2e334efc4ba</sys_scope>
+        <sys_update_name>sys_hub_category_e364e24b3ba0030057a4a2e334efc4e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:25:32</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=e364e24b3ba0030057a4a2e334efc4e0"/>
+</record_update>

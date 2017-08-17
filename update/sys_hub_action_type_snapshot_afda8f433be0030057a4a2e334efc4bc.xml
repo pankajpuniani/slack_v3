@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category display_value="Webhooks">e364e24b3ba0030057a4a2e334efc4e0</category>
+        <description>&lt;p&gt;Post Problem Details to a Slack Channel using an &lt;a target="_blank" href="https://api.slack.com/incoming-webhooks"&gt;Inbound Webhook&lt;/a&gt;. Specify the Webhook URL and Problem to send.&lt;p&gt;
+
+&lt;p&gt;Optional: Configure a Username, Channel, or Icon.&lt;br&gt;
+&lt;ul&gt;&lt;li&gt;If you do not specify a Username, Channel, or Icon it will post the message using the defaults as configured in your WebHook. If you specify them here, they will override those defaults&lt;/li&gt;
+&lt;li&gt;The username does not need to be setup in Slack; however, the channel and icons must already exist .&lt;/li&gt;&lt;/ul&gt;
+&lt;/p&gt;&lt;p&gt;Note: You can direct message an existing Slack user by specifying the user id e.g. @abel as the channel input.
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target="_blank" href="https://docs.servicenow.com/?context=CSHelp:AutomationHub-licensing-information"&gt;Read More&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <label_cache>[{"name":"{{action.ah_webhook_url}}","label":"action➛Webhook URL","type":"action","ref":""},{"name":"{{action.ah_username}}","label":"action➛Username","type":"action","ref":""},{"name":"{{action.ah_channel}}","label":"action➛Channel","type":"action","ref":""},{"name":"{{action.ah_icon}}","label":"action➛Icon","type":"action","ref":""},{"name":"{{action.ah_additional_message}}","label":"action➛Additional Message","type":"action","ref":""},{"name":"{{action.ah_override_default_fields}}","label":"action➛Override Default Fields","type":"action","ref":""},{"name":"{{action.ah_problem}}","label":"action➛Problem","type":"action","ref":"problem"},{"name":"{{step[8f148602-9bff-4bde-b521-c5e1fc716de0].payload}}","label":"step➛Build Payload➛payload","type":"step","ref":""},{"name":"{{step[630bd70f-e8d6-4bfc-a217-487085c4b741].response_body}}","label":"step➛Post Message➛Response Body","type":"step","ref":""},{"name":"{{step[630bd70f-e8d6-4bfc-a217-487085c4b741].status_code}}","label":"step➛Post Message➛Status Code","type":"step","ref":""}]</label_cache>
+        <name>Post Problem Details</name>
+        <outputs/>
+        <parent_action display_value="Post Problem Details">bcb92e4b3ba0030057a4a2e334efc48a</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 21:13:21</sys_created_on>
+        <sys_id>afda8f433be0030057a4a2e334efc4bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Post Problem Details</sys_name>
+        <sys_package display_value="Slack" source="sn_slack_ah">e39492473ba0030057a4a2e334efc4ba</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Slack">e39492473ba0030057a4a2e334efc4ba</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_afda8f433be0030057a4a2e334efc4bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 21:13:21</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=afda8f433be0030057a4a2e334efc4bc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=afda8f433be0030057a4a2e334efc4bc"/>
+</record_update>

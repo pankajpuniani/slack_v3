@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Post Problem Details">bcb92e4b3ba0030057a4a2e334efc48a</action>
+        <cid>8f148602-9bff-4bde-b521-c5e1fc716de0</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Build Payload</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:57:52</sys_created_on>
+        <sys_id>8fdb6e8b3ba0030057a4a2e334efc43d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Build Payload</sys_name>
+        <sys_package display_value="Slack" source="sn_slack_ah">e39492473ba0030057a4a2e334efc4ba</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Slack">e39492473ba0030057a4a2e334efc4ba</sys_scope>
+        <sys_update_name>sys_hub_step_instance_8fdb6e8b3ba0030057a4a2e334efc43d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:57:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8fdb6e8b3ba0030057a4a2e334efc43d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8fdb6e8b3ba0030057a4a2e334efc43d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:57:53</sys_created_on>
+        <sys_id>4bdb6e8b3ba0030057a4a2e334efc462</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:57:53</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var defaultFields = 'short_description,category,state,priority,assignment_group,assigned_to'; //default fields
+  var fieldsToPost = inputs.fields;
+  if(gs.nil(fieldsToPost))
+    fieldsToPost = defaultFields;
+    
+  var slackUtils = new SlackUtils();
+  var payload = slackUtils.createPayload(inputs,fieldsToPost);
+  outputs.payload = JSON.stringify(payload);
+})(inputs, outputs);
+
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8fdb6e8b3ba0030057a4a2e334efc43d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>channel</field>
+        <id>8fdb6e8b3ba0030057a4a2e334efc43d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:57:53</sys_created_on>
+        <sys_id>c7db6e8b3ba0030057a4a2e334efc463</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:57:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8fdb6e8b3ba0030057a4a2e334efc43d</table>
+        <value>{{action.ah_channel}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>8fdb6e8b3ba0030057a4a2e334efc43d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:57:53</sys_created_on>
+        <sys_id>4fdb6e8b3ba0030057a4a2e334efc463</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:57:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8fdb6e8b3ba0030057a4a2e334efc43d</table>
+        <value>{{action.ah_override_default_fields}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>8fdb6e8b3ba0030057a4a2e334efc43d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:57:53</sys_created_on>
+        <sys_id>8bdb6e8b3ba0030057a4a2e334efc463</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:57:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8fdb6e8b3ba0030057a4a2e334efc43d</table>
+        <value>{{action.ah_icon}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>8fdb6e8b3ba0030057a4a2e334efc43d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:57:53</sys_created_on>
+        <sys_id>03db6e8b3ba0030057a4a2e334efc464</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:57:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8fdb6e8b3ba0030057a4a2e334efc43d</table>
+        <value>{{action.ah_additional_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8fdb6e8b3ba0030057a4a2e334efc43d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:57:53</sys_created_on>
+        <sys_id>07db6e8b3ba0030057a4a2e334efc463</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:57:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8fdb6e8b3ba0030057a4a2e334efc43d</table>
+        <value>{{action.ah_problem}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>8fdb6e8b3ba0030057a4a2e334efc43d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:57:53</sys_created_on>
+        <sys_id>c7db6e8b3ba0030057a4a2e334efc462</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:57:53</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>username</field>
+        <id>8fdb6e8b3ba0030057a4a2e334efc43d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-17 18:57:53</sys_created_on>
+        <sys_id>c3db6e8b3ba0030057a4a2e334efc464</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:57:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_8fdb6e8b3ba0030057a4a2e334efc43d</table>
+        <value>{{action.ah_username}}</value>
+    </sys_element_mapping>
+</record_update>
